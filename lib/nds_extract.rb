@@ -9,8 +9,8 @@ require 'pp'
 def directors_totals(nds)
   result = {}
   nds.each do |n|
-    result[gross_for_director
-  pp nds
+    result[n[:name] = gross_for_director(n)
+  pp result
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
