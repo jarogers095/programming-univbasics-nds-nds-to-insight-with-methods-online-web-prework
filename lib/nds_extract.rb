@@ -8,7 +8,7 @@ require 'pp'
 
 def directors_totals(nds)
   result = {}
-  nil
+  pp nds
 end
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
