@@ -8,6 +8,8 @@ require 'pp'
 
 def directors_totals(nds)
   result = {}
+  nds.each do |n|
+    result[gross_for_director
   pp nds
 end
 
